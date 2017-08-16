@@ -5,11 +5,32 @@
 
   <body>
 
+  	<div id="top">
     {% include header.html %}
+	{% include intro.html %}
+	{% include toolbar.html %}
+	</div>
 
+	<div id="about">
+	{% include about.html %}
+	</div>
+	<br><br><br><br>
+	<div id="work">
+	{% include work.html %}
+	</div>
+	<br><br><br><br>
+	<div id="projects">
+	{% include projects.html %}
+	</div>
+	<br><br><br><br>
+	<div id="contact">
+	{% include contact.html %}
+	</div>
+	<br><br><br><br>
     {{ content }}
 
     {% include footer.html %}
+	</div>
 
   </body>
 

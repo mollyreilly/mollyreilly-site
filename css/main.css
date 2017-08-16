@@ -1,0 +1,105 @@
+<style>
+a:link {
+    color: pink;
+    /*background-color: transparent;
+    text-decoration: none;*/
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+table.table1, table.table1 th, table.table1 td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table.boo, table.boo th, table.boo td{
+    border: none;
+    vertical-align: top;
+}
+.site-header {
+    text-shadow: 3px 3px pink, 6px 6px #FFFBC0;
+}
+/*h1.header:hover + img{
+    display: block;
+}
+h1.header:hover img{
+    display: block;
+}
+p.header:hover + img{
+    display: block;
+}
+p.header:hover img{
+    display: block;
+}*/
+div#top:hover + img{
+    display: block;
+}
+div#top:hover img{
+    display: block;
+}
+div#top {
+    height: 100vh;
+    width: 100%;
+    background: white;
+    /*font-size: 80px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;*/
+}
+div#bottom {
+    height: 100%;
+    width: 100%;
+    background: #FFFBC0;
+}
+div#about {
+    height: 100%;
+    width: 100%;
+    background: #FFFBC0;
+}
+div#work {
+    height: 100%;
+    width: 100%;
+    background: #FFFBC0;
+}
+div#projects {
+    height: 100%;
+    width: 100%;
+    /*background: #FFE0C0;*/
+    background: #FFFBC0;
+}
+div#contact {
+    height: 100%;
+    width: 100%;
+    background: #FFFBC0;
+}
+img{
+   display: none
+}
+.boo .evernote {
+    visibility: hidden;
+    width: 480px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.boo:hover .evernote {
+    visibility: visible;
+}
+</style>
