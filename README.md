@@ -58,4 +58,4 @@ A more complex and pretty cool theme can be found on the branch `config/spectral
 ### Cool Resources
 * [Jekyll Themes](http://jekyllthemes.org/)
 * [Materialize](http://materializecss.com/)
-* [Cody House](https://codyhouse.co/)
+* [Cody House](https://codyhouse.co/)   
